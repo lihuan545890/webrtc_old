@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repository/webkit/!svn/ver/140510/trunk/Tools/Scripts/webkitpy/to_be_moved
+END
+update_webgl_conformance_tests_unittest.py
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repository/webkit/!svn/ver/140510/trunk/Tools/Scripts/webkitpy/to_be_moved/update_webgl_conformance_tests_unittest.py
+END
+update_webgl_conformance_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repository/webkit/!svn/ver/136545/trunk/Tools/Scripts/webkitpy/to_be_moved/update_webgl_conformance_tests.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repository/webkit/!svn/ver/89791/trunk/Tools/Scripts/webkitpy/to_be_moved/__init__.py
+END

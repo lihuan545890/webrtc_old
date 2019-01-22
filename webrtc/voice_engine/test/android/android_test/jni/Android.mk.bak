@@ -1,0 +1,95 @@
+# Copyright (c) 2012 The WebRTC project authors. All Rights Reserved.
+#
+# Use of this source code is governed by a BSD-style license
+# that can be found in the LICENSE file in the root of the source
+# tree. An additional intellectual property rights grant can be found
+# in the file PATENTS.  All contributing project authors may
+# be found in the AUTHORS file in the root of the source tree.
+
+LOCAL_PATH := $(call my-dir)
+
+# Specify BUILDTYPE=Release on the command line for a release build.
+BUILDTYPE ?= Debug
+
+include $(call all-makefiles-under, $(LOCAL_PATH))
+MY_LIBS_PATH := ../../../../../../out/Debug/
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := system_wrappers
+LOCAL_SRC_FILES := $(MY_LIBS_PATH)/libsystem_wrappers.a
+include $(PREBUILT_STATIC_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := audio_device
+LOCAL_SRC_FILES := $(MY_LIBS_PATH)/libaudio_device.a
+include $(PREBUILT_STATIC_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libsignal_processing
+LOCAL_SRC_FILES := \
+    $(MY_LIBS_PATH)/libsignal_processing.a
+include $(PREBUILT_STATIC_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libsignal_processing_neon
+LOCAL_SRC_FILES := \
+    $(MY_LIBS_PATH)/libsignal_processing_neon.a
+include $(PREBUILT_STATIC_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libcpu_features_android
+LOCAL_SRC_FILES := \
+    $(MY_LIBS_PATH)/libcpu_features_android.a
+include $(PREBUILT_STATIC_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwebrtc_utility
+LOCAL_SRC_FILES := \
+    $(MY_LIBS_PATH)/libwebrtc_utility.a
+include $(PREBUILT_STATIC_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libinterface
+LOCAL_SRC_FILES := \
+    $(MY_LIBS_PATH)/libinterface.so
+include $(PREBUILT_SHARED_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := webrtc-voice-demo-jni
+LOCAL_CPP_EXTENSION := .cc
+LOCAL_SRC_FILES := \
+    audio_android_device.cc \
+    voe_base_impl.cc \
+    voice_engine_impl.cc \
+    statistics.cc \
+    shared_data.cc
+
+LOCAL_CFLAGS := \
+    '-DWEBRTC_TARGET_PC' \
+    '-DWEBRTC_ANDROID'
+
+LOCAL_C_INCLUDES := \
+    $(LOCAL_PATH)/../../../../../../webrtc \
+    $(LOCAL_PATH)/../../../../../../webrtc/system_wrappers/interface \
+    $(LOCAL_PATH)/../../../../../../webrtc/voice_engine/include
+
+LOCAL_LDLIBS := \
+    -llog \
+    -lgcc \
+    -lGLESv2 \
+    -lOpenSLES \
+    
+LOCAL_LDLIBS += -fuse-ld=gold
+
+LOCAL_STATIC_LIBRARIES := \
+    libaudio_device \
+    libsignal_processing \
+    libsignal_processing_neon \
+    libcpu_features_android \
+    libwebrtc_utility \
+    libsystem_wrappers \
+    $(MY_SUPPLEMENTAL_LIBS)
+
+LOCAL_SHARED_LIBRARIES := libinterface
+   
+include $(BUILD_SHARED_LIBRARY)

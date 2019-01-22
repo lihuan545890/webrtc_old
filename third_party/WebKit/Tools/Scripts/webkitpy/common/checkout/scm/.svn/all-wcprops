@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repository/webkit/!svn/ver/142178/trunk/Tools/Scripts/webkitpy/common/checkout/scm
+END
+scm_mock.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repository/webkit/!svn/ver/139712/trunk/Tools/Scripts/webkitpy/common/checkout/scm/scm_mock.py
+END
+commitmessage.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repository/webkit/!svn/ver/85449/trunk/Tools/Scripts/webkitpy/common/checkout/scm/commitmessage.py
+END
+detection_unittest.py
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repository/webkit/!svn/ver/140510/trunk/Tools/Scripts/webkitpy/common/checkout/scm/detection_unittest.py
+END
+detection.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repository/webkit/!svn/ver/135912/trunk/Tools/Scripts/webkitpy/common/checkout/scm/detection.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repository/webkit/!svn/ver/100558/trunk/Tools/Scripts/webkitpy/common/checkout/scm/__init__.py
+END
+scm_unittest.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repository/webkit/!svn/ver/140089/trunk/Tools/Scripts/webkitpy/common/checkout/scm/scm_unittest.py
+END
+scm.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repository/webkit/!svn/ver/139712/trunk/Tools/Scripts/webkitpy/common/checkout/scm/scm.py
+END
+git.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repository/webkit/!svn/ver/142178/trunk/Tools/Scripts/webkitpy/common/checkout/scm/git.py
+END
+svn.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repository/webkit/!svn/ver/140508/trunk/Tools/Scripts/webkitpy/common/checkout/scm/svn.py
+END

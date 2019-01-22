@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2011 The WebRTC project authors. All Rights Reserved. -->
+<!--                                                                     -->
+<!-- Use of this source code is governed by a BSD-style license          -->
+<!-- that can be found in the LICENSE file in the root of the source     -->
+<!-- tree. An additional intellectual property rights grant can be found -->
+<!-- in the file PATENTS.  All contributing project authors may          -->
+<!-- be found in the AUTHORS file in the root of the source tree.        -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	      android:orientation="vertical"
+	      android:layout_width="fill_parent"
+	      android:layout_height="fill_parent">
+
+   <Button android:text="startbtn"
+	  android:id="@+id/startbtn"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+  </Button>
+</LinearLayout>

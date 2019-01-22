@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repository/webkit/!svn/ver/136545/trunk/Tools/Scripts/webkitpy/bindings
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repository/webkit/!svn/ver/101767/trunk/Tools/Scripts/webkitpy/bindings/__init__.py
+END
+main.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repository/webkit/!svn/ver/136545/trunk/Tools/Scripts/webkitpy/bindings/main.py
+END

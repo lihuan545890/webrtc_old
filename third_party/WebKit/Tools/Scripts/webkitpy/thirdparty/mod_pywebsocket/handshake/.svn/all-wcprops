@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repository/webkit/!svn/ver/130869/trunk/Tools/Scripts/webkitpy/thirdparty/mod_pywebsocket/handshake
+END
+_base.py
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repository/webkit/!svn/ver/130869/trunk/Tools/Scripts/webkitpy/thirdparty/mod_pywebsocket/handshake/_base.py
+END
+hybi.py
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repository/webkit/!svn/ver/130869/trunk/Tools/Scripts/webkitpy/thirdparty/mod_pywebsocket/handshake/hybi.py
+END
+hybi00.py
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repository/webkit/!svn/ver/116668/trunk/Tools/Scripts/webkitpy/thirdparty/mod_pywebsocket/handshake/hybi00.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repository/webkit/!svn/ver/130869/trunk/Tools/Scripts/webkitpy/thirdparty/mod_pywebsocket/handshake/__init__.py
+END

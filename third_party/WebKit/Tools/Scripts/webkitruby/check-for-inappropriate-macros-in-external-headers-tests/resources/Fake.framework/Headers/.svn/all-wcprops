@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repository/webkit/!svn/ver/138064/trunk/Tools/Scripts/webkitruby/check-for-inappropriate-macros-in-external-headers-tests/resources/Fake.framework/Headers
+END
+Fail.h
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repository/webkit/!svn/ver/138064/trunk/Tools/Scripts/webkitruby/check-for-inappropriate-macros-in-external-headers-tests/resources/Fake.framework/Headers/Fail.h
+END
+Pass.h
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repository/webkit/!svn/ver/138064/trunk/Tools/Scripts/webkitruby/check-for-inappropriate-macros-in-external-headers-tests/resources/Fake.framework/Headers/Pass.h
+END

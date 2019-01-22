@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repository/webkit/!svn/ver/140510/trunk/Tools/Scripts/webkitpy/layout_tests/servers
+END
+http_server_integrationtest.py
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repository/webkit/!svn/ver/140510/trunk/Tools/Scripts/webkitpy/layout_tests/servers/http_server_integrationtest.py
+END
+lighttpd.conf
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repository/webkit/!svn/ver/99377/trunk/Tools/Scripts/webkitpy/layout_tests/servers/lighttpd.conf
+END
+websocket_server.py
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repository/webkit/!svn/ver/136545/trunk/Tools/Scripts/webkitpy/layout_tests/servers/websocket_server.py
+END
+httpd2.pem
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repository/webkit/!svn/ver/89801/trunk/Tools/Scripts/webkitpy/layout_tests/servers/httpd2.pem
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repository/webkit/!svn/ver/89795/trunk/Tools/Scripts/webkitpy/layout_tests/servers/__init__.py
+END
+http_server_base.py
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repository/webkit/!svn/ver/140508/trunk/Tools/Scripts/webkitpy/layout_tests/servers/http_server_base.py
+END
+http_server_unittest.py
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repository/webkit/!svn/ver/140510/trunk/Tools/Scripts/webkitpy/layout_tests/servers/http_server_unittest.py
+END
+apache_http_server_unittest.py
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repository/webkit/!svn/ver/140510/trunk/Tools/Scripts/webkitpy/layout_tests/servers/apache_http_server_unittest.py
+END
+http_server.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repository/webkit/!svn/ver/139764/trunk/Tools/Scripts/webkitpy/layout_tests/servers/http_server.py
+END
+apache_http_server.py
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repository/webkit/!svn/ver/136545/trunk/Tools/Scripts/webkitpy/layout_tests/servers/apache_http_server.py
+END

@@ -1,0 +1,2 @@
+set solib-search-path ./obj/local/armeabi-v7a
+directory /home/lijing/workspace/trunk/third_party/android_tools/ndk/platforms/android-14/arch-arm/usr/include jni /home/lijing/workspace/trunk/third_party/android_tools/ndk/sources/cxx-stl/stlport jni/../../../../../../webrtc jni/../../../../../../webrtc/system_wrappers/interface jni/../../../../../../webrtc/voice_engine/include /home/lijing/workspace/trunk/third_party/android_tools/ndk/sources/cxx-stl/stlport/stlport /home/lijing/workspace/trunk/third_party/android_tools/ndk/sources/cxx-stl//gabi++/include

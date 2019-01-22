@@ -1,0 +1,4 @@
+set solib-search-path ./obj/local/armeabi-v7a
+directory /home/lijing/android-ndks/android-ndk-r7b/platforms/android-14/arch-arm/usr/include jni /home/lijing/android-ndks/android-ndk-r7b/sources/cxx-stl/stlport external/gtest/include jni/../../../.. jni/../../../../.. jni/../../../include jni/../../../../voice_engine/include /home/lijing/android-ndks/android-ndk-r7b/sources/cxx-stl/stlport/stlport /home/lijing/android-ndks/android-ndk-r7b/sources/cxx-stl//gabi++/include
+file ./obj/local/armeabi-v7a/app_process
+target remote :5039
